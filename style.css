@@ -1,0 +1,44 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    font-family: "Monument Extended";
+    color: white;
+}
+
+body {
+    margin: 200px auto;
+}
+
+.conteudo {
+    width: 70%;
+    margin: 160px auto;
+}
+
+section {
+    transition: transform 0.25s;
+    will-change: transform;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+
+p {
+    font-weight: lighter;
+    color: rgb(191, 191, 191);
+    font-size: 16px;
+    line-height: 30px;
+}
+
+img {
+    width: 100%;
+}
+
+div {
+    margin-bottom: 80px;
+}
